@@ -1,0 +1,68 @@
+
+
+.expense-header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.expense-header--title {
+    flex: 1;
+}
+
+.expense-header--conversion-rate {
+
+}
+
+.expense-form {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.expense-form--add-btn {
+    margin-top: auto;
+    width: 15%;
+    min-width: 60px;
+    max-width: 150px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 8px 0;
+    height: 40px;
+    background-color: #f4f4f4;
+}
+
+.expense-form--wrapper {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    width: 80%;
+}
+
+.expense-form--input {
+    padding: 7px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid black;
+
+}
+.expense-form--label {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.expense-form--error-message {
+    flex: 1 1 100%;
+    height: 40px;
+    color: red;
+    display: flex;
+    align-items: center;
+
+}
+
+
